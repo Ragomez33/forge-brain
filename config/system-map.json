@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-11-08",
+  "root": ".",
+  "description": "Mapa de topología del ecosistema brain-corp. Registra aquí los repositorios/sidecars que orquesta este workspace.",
+  "repositories": [
+    {
+      "id": "forge-backend",
+      "name": "forge-backend",
+      "path": "sidecars/forge-backend",
+      "role": "provider",
+      "type": "provider",
+      "description": "",
+      "source": "github",
+      "nameWithOwner": "Forge-Aetheria/forge-backend",
+      "owner": "Forge-Aetheria",
+      "url": "https://github.com/Forge-Aetheria/forge-backend",
+      "sshUrl": "git@github.com:Forge-Aetheria/forge-backend.git",
+      "remote": "git@github.com:Forge-Aetheria/forge-backend.git",
+      "isPrivate": true
+    },
+    {
+      "id": "forge-front",
+      "name": "forge-front",
+      "path": "sidecars/forge-front",
+      "role": "client",
+      "type": "client",
+      "description": "",
+      "source": "github",
+      "nameWithOwner": "Forge-Aetheria/forge-front",
+      "owner": "Forge-Aetheria",
+      "url": "https://github.com/Forge-Aetheria/forge-front",
+      "sshUrl": "git@github.com:Forge-Aetheria/forge-front.git",
+      "remote": "git@github.com:Forge-Aetheria/forge-front.git",
+      "isPrivate": true
+    },
+    {
+      "id": "foundly-pos",
+      "name": "foundly-pos",
+      "path": "sidecars/foundly-pos",
+      "role": "client",
+      "type": "client",
+      "description": "",
+      "source": "github",
+      "nameWithOwner": "Forge-Aetheria/foundly-pos",
+      "owner": "Forge-Aetheria",
+      "url": "https://github.com/Forge-Aetheria/foundly-pos",
+      "sshUrl": "git@github.com:Forge-Aetheria/foundly-pos.git",
+      "remote": "git@github.com:Forge-Aetheria/foundly-pos.git",
+      "isPrivate": true
+    }
+  ],
+  "relationships": [],
+  "topology": {
+    "pattern": "monorepo-contenedor con git submodules",
+    "gitmodules": ".gitmodules",
+    "groups": []
+  },
+  "rootOrchestration": {
+    "enabled": true,
+    "root": ".",
+    "rule": "Todos los comandos y skills operan desde la raíz de brain-corp. Las rutas de los sidecars se resuelven desde config/system-map.json; nunca se requiere cambiar de directorio.",
+    "pathResolution": "repositories[].path (relativo a la raíz)",
+    "neverCd": true
+  },
+  "domains": {
+    "forge-backend": [],
+    "forge-front": [],
+    "foundly-pos": []
+  },
+  "notes": []
+}

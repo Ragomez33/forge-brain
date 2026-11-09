@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "githubUser": "Ragomez33",
+  "projectId": null,
+  "projectOwner": null,
+  "defaultAgent": "opencode",
+  "createdAt": "2026-11-08T01:34:55.126Z",
+  "updatedAt": "2026-11-08T01:39:37.974Z",
+  "lastSession": {
+    "agent": "opencode",
+    "focus": "global analysis",
+    "updatedAt": "2026-11-08T01:39:37.974Z",
+    "watch": false
+  }
+}
