@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-11-08",
+  "generatedAt": "2026-11-10",
   "root": ".",
   "description": "Mapa de topología del ecosistema brain-corp. Registra aquí los repositorios/sidecars que orquesta este workspace.",
   "repositories": [
@@ -53,8 +53,8 @@
   "relationships": [],
   "topology": {
     "pattern": "monorepo-contenedor con git submodules",
-    "gitmodules": ".gitmodules",
-    "groups": []
+    "groups": [],
+    "gitmodules": ".gitmodules"
   },
   "rootOrchestration": {
     "enabled": true,

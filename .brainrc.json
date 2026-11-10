@@ -5,11 +5,11 @@
   "projectOwner": null,
   "defaultAgent": "opencode",
   "createdAt": "2026-11-08T01:34:55.126Z",
-  "updatedAt": "2026-11-09T23:54:18.913Z",
+  "updatedAt": "2026-11-10T23:19:05.243Z",
   "lastSession": {
     "agent": "opencode",
     "focus": "global analysis",
-    "updatedAt": "2026-11-09T23:54:18.913Z",
+    "updatedAt": "2026-11-10T23:19:05.243Z",
     "watch": false
   }
 }
