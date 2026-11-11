@@ -17,3 +17,6 @@ dist/
 build/
 .next/
 # <<< brain-corp managed <<<
+
+# Independent sidecar repositories (hydrated separately)
+/sidecars/
